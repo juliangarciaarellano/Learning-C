@@ -2,14 +2,30 @@
 #include <math.h>
 #include "Calc.h"
 
+
+int linearCalculator(float a, float b)
+{
+   float result = 0; // Creating result variable in float state for later use
+   float zero = 0; // Creating zero variable for comparing to other floats in if statements
+
+   float root = (-b/a);
+
+   printf("Your function intersects 0 at %f", root);
+    
+
+   return 0;
+}
+
+
+
+// Quadratic Calculations
+
 int quadraticCalculator(float a, float b, float c)
 {
    float result = 0; // Creating result variable in float state for later use
    float zero = 0; // Creating zero variable for comparing to other floats in if statements
 
    float Check = (b*b) - (4*a*c);
-
-   printf("This is your # %f", Check);
 
    printf("\n"); // Line break
 
